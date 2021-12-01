@@ -9,7 +9,7 @@ namespace AdventOfCode2021.Days
     {
         static void Main(string[] args)
         {
-            IEnumerable<String> lines = File.ReadLines("C:\\Users\\Stick\\RiderProjects\\AdventOfCode2021\\Days\\day01\\input.txt");
+            IEnumerable<String> lines = File.ReadLines("Days/day01/input.txt");
             int lastValue = 0;
             int count = 0;
             
