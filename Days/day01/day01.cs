@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace AdventOfCode2021.Days
+namespace AdventOfCode2021.Days.day01
 {
     public class day01
     {
-        static void Main(string[] args)
+        public day01()
         {
-            IEnumerable<String> lines = File.ReadLines("Days/day01/input.txt");
+            IEnumerable<string> lines = File.ReadLines("Days/day01/input.txt");
             int lastValue = 0;
             int count = 0;
             
